@@ -4,7 +4,6 @@ import React from 'react'
 import { fridgeData } from '../data/fridge'
 import { Link } from 'react-router-dom'
 
-
 const Fridge = () => {
 
     const firstFiveImages = fridgeData.slice(0,5)

@@ -4,7 +4,6 @@ import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
 
 const AcPage = () => {
-
     const [selectedProduct, setSelectedProduct] = useState([])
 
     const companyHandler=(mango)=>{
@@ -14,7 +13,6 @@ const AcPage = () => {
                 setSelectedProduct([...selectedProduct, mango]) 
             }
     }
-
 
     const filteredProduct = selectedProduct.length===0?
         acData : acData.filter((orange)=>selectedProduct.includes(orange.company))

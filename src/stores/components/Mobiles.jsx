@@ -1,10 +1,7 @@
-
 import React from 'react'
-
 
 import { mobileData } from '../data/mobiles'
 import { Link } from 'react-router-dom'
-
 
 const Mobiles = () => {
 
@@ -34,3 +31,4 @@ const Mobiles = () => {
 }
 
 export default Mobiles
+
